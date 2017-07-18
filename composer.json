@@ -1,0 +1,48 @@
+{
+    "name": "faridkoch/podata",
+    "type": "library",
+    "description": "OData for Poor PHP Developers",
+    "keywords": [ "rest", "odata" ],
+    "license": "BSD-2-Clause",
+    "authors": [
+
+        {
+            "name": "POData Project",
+            "email": "podataproject@gmail.com"
+        },
+        {
+            "name": "Microsoft Open Technologies, Inc.",
+            "email": "msopentech@microsoft.com"
+        }
+    ],
+
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/CyberiaResurrection/phockito-unit.git"
+    }
+  ],
+
+    "minimum-stability": "dev",
+    "require": {
+        "myclabs/php-enum": "1.2.0",
+        "verdant/xml2array": "dev-master",
+        "php": ">=5.6.4",
+        "illuminate/http": ">=5.1",
+        "nesbot/carbon": "^1.21",
+        "faridkoch/o-data-metadata": "dev"
+    },
+    "require-dev": {
+        "doctrine/annotations": "1.*",
+        "satooshi/php-coveralls": "dev-master",
+        "phpunit/phpunit": "^5.6",
+        "mockery/mockery": "0.9.*",
+        "fiunchinho/phpunit-randomizer": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "POData": "src/",
+            "UnitTests" : "tests/"
+        }
+    }
+}
