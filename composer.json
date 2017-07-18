@@ -1,5 +1,5 @@
 {
-    "name": "faridkoch/podata",
+    "name": "faridkoch/podata-demo",
     "type": "library",
     "description": "OData for Poor PHP Developers",
     "keywords": [ "rest", "odata" ],
@@ -20,6 +20,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/CyberiaResurrection/phockito-unit.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/faridkoch/ODataMetadata-demo.git"
     }
   ],
 
@@ -30,7 +34,7 @@
         "php": ">=5.6.4",
         "illuminate/http": ">=5.1",
         "nesbot/carbon": "^1.21",
-        "faridkoch/o-data-metadata": "dev"
+        "faridkoch/odatametadata-demo": "dev-master"
     },
     "require-dev": {
         "doctrine/annotations": "1.*",
